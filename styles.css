@@ -1,0 +1,50 @@
+body {
+    background:url(bigben.jpg);
+    background-size:cover;  
+}
+.marco-reloj {
+    display:flex;
+    align-items:center;
+    width: 30%;
+    margin:auto;
+}
+.calendario {
+    position:absolute;
+    top: 25%;
+    width: auto;
+    margin:auto;
+}
+.fecha {
+    font-family: Calibri;
+    text-align: center;
+    font-size: 1.5em;
+    background: rgba(230, 46, 27, .45);
+    margin-bottom: 5px; 
+    width: 100%;
+    border: 1px solid;
+    
+}
+.fecha p {
+    display: inline-block;
+}
+
+.reloj{
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-family: Calibri;
+    font-size: 2.5em;
+    background: rgba(230, 46, 27, .45);
+    width: 200px;
+    height: 200px;
+    padding: 12px;
+    display:flex;
+    border: 2px solid;
+    margin: auto;
+    
+}
+.reloj p {
+    display: inline-block;
+    text-align: center;
+}
+

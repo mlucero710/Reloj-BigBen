@@ -8,20 +8,28 @@ body {
     width: 30%;
     margin:auto;
 }
+
+   
 .calendario {
     position:absolute;
-    top: 25%;
+    top: 30%;
+    right: 40%;
     width: auto;
     margin:auto;
 }
 .fecha {
+    position:fixed;
+    top: 0;
+    right: 0;
     font-family: Calibri;
     text-align: center;
     font-size: 1.5em;
     background: rgba(230, 46, 27, .45);
     margin-bottom: 5px; 
-    width: 100%;
+    width: 30%;
     border: 1px solid;
+    
+
     
 }
 .fecha p {
